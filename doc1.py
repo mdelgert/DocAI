@@ -27,7 +27,7 @@ def summarize_text_ollama(text):
         raise Exception(f"API request failed with status code {response.status_code}: {response.text}")
 
 # Directory containing docs
-resume_folder = "/home/mdelgert/DocReader/docs"
+resume_folder = "/home/mdelgert/DocAI/docs"
 
 # Loop through each file in the folder
 for filename in os.listdir(resume_folder):

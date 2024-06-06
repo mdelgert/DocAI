@@ -5,7 +5,7 @@ from docx import Document
 # Configuration variables
 GENERATE_URL = "http://localhost:11434/api/generate"  # URL for the Ollama API
 MODEL_NAME = "llama3"  # Model name to be used for generating summaries
-RESUME_FOLDER = "/home/mdelgert/DocReader/docs"  # Path to the folder containing the resumes
+RESUME_FOLDER = "/home/mdelgert/DocAI/docs"  # Path to the folder containing the resumes
 
 def read_docx(file_path):
     """

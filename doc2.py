@@ -44,7 +44,7 @@ def evaluate_summaries(summaries):
         raise Exception(f"API request failed with status code {response.status_code}: {response.text}")
 
 # Directory containing docs
-resume_folder = "/home/mdelgert/DocReader/docs"
+resume_folder = "/home/mdelgert/DocAI/docs"
 summaries = []
 
 # Loop through each file in the folder

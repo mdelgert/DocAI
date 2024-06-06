@@ -4,16 +4,18 @@ Ollama python doc scanner.
 
 **Setup**
 
-1. Create a virtual environment named `ollama_env`.
+1. Create a virtual environment named `ollama_env` and restore packages.
 ```
-python3 -m venv ollama_env
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 **Run**
 
 2. Activate the virtual environment.
 ```
-source ollama_env/bin/activate
+source venv/bin/activate
 ```
 
 3. Run the `doc3.py` script.

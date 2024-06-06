@@ -13,7 +13,7 @@ def summarize_text_ollama(text):
     url = "http://localhost:11434/api/generate"
     data = {
         "model": "llama3",
-        "prompt": f"please summarize this in one paragraph:\n\n{text}",
+        "prompt": f"summarize the following:\n\n{text}",
         "stream": False
     }
     response = requests.post(url, json=data)
